@@ -1,0 +1,14 @@
+The results page is divided into a total_number_of_pages
+An ordered list of hyperlinked numbers is displayed
+The current page number is disabled
+If there's only one page
+    Don't show the pagination
+Else:
+    If between the current and the first page are more than 3 pages:
+        Hide the numbers 
+        If I'm in the first page:
+            Show the next two pages
+    If between the current and the first or last page are more than 3 pages:
+        Hide the numbers
+        If I'm in the last page:
+            Show the previews two pages
